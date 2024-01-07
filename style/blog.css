@@ -6,11 +6,10 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 .Banner-para1 {
     width: 259px;
     height: 40px;
-    color: #fff;
+    color: #f80404;
     font-size: 32px;
     font-weight: 40px;
     margin-left: 30%;
@@ -20,9 +19,21 @@ header {
 .Banner-h1{
     width: 632px;
     height: 190px;
-    color: #fff;
+    color: #5a03fc;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
     margin-left: 10%;
+}
+.main{
+
+}
+.main-h1{
+
+}
+.main-para1{
+
+}
+.main-h2{
+    
 }
