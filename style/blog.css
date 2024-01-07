@@ -6,6 +6,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .Banner-para1 {
     width: 259px;
     height: 40px;
@@ -13,10 +14,11 @@ header {
     font-size: 32px;
     font-weight: 40px;
     margin-left: 30%;
-    padding:  0px; 
+    padding: 0px;
     line-height: normal;
 }
-.Banner-h1{
+
+.Banner-h1 {
     width: 632px;
     height: 190px;
     color: #5a03fc;
@@ -25,15 +27,75 @@ header {
     line-height: 95px;
     margin-left: 10%;
 }
-.main{
+.All-body{
 
 }
-.main-h1{
 
+.main {
+    align-items: center;
+    display: block;
+    text-align: center;
 }
-.main-para1{
 
+.container {
+    width: 1320px;
+    height: 600px;
+    background-image: url("/resources/Vectorrr.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
-.main-h2{
+
+.main-h1 {
+    color: #f80404;
+    text-align: center;
+    font-size: 88px;
+}
+
+.main-para1 {
+    color: #f80404;
+    font-size: 24px;
+    text-align: center;
+}
+
+.main-h2 {
+    color: black;
+    text-align: center;
+    font-size: 48px;
+}
+
+.main-img {
+    width: 802px;
+    height: 500px;
+    /* margin: 48px 20%; */
+    position: relative;
+}
+
+.main2 {}
+
+
+
+
+
+.container-h1 {
+    color: #f3f1f1;
+    margin-top: 100px;
+    margin-right: 200px;
+    font-size: 64px;
+    letter-spacing: 7px;
+}
+
+.container-para {
+    color: #fcfafa;
+    font-size: 24px;
+    text-align: left;
+}
+.button{
+    padding: none;
+}
+
+.main2-img{ 
     
-}
+
+    }
