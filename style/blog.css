@@ -1,0 +1,28 @@
+header {
+    width: 1320px;
+    height: 600px;
+    background-image: url("/resources/Banner\ Image.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner-para1 {
+    width: 259px;
+    height: 40px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 40px;
+    margin-left: 30%;
+    padding:  0px; 
+    line-height: normal;
+}
+.Banner-h1{
+    width: 632px;
+    height: 190px;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-left: 10%;
+}
