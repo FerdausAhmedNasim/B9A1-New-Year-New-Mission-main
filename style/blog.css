@@ -129,7 +129,7 @@ header {
     width: 430px;
     height: 450px;
     margin-left: 50px;
-    padding: 30px;
+    padding: 5px;
     opacity: 0.5;
 }
 
@@ -138,7 +138,8 @@ header {
     width: 424px;
     height: 450px;
     margin-left: 50px;
-    padding: 30px;
+    padding: 3px;
+    position: relative;
 }
 
 .line-2 {
@@ -146,7 +147,8 @@ header {
     width: 424px;
     height: 450px;
     margin-left: 50px;
-    padding: 30px;
+    padding: 3px;
+    position: relative;
 }
 
 .box-1 {
@@ -286,4 +288,10 @@ header {
 .last-footer-button:hover{
 
     font-size: medium;
+}
+
+.bonus  {
+    width: 1320px;
+    height: 600px;
+    background-color: #f10a0a;
 }
