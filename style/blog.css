@@ -28,8 +28,8 @@ header {
     margin-left: 10%;
 }
 
-.All-body{
-/* position:absolute; */
+.All-body {
+    /* position:absolute; */
 }
 
 .main {
@@ -39,7 +39,7 @@ header {
     /* margin-left: 50px; */
     margin: auto;
     /* position: absolute; */
-    
+
 }
 
 
@@ -47,8 +47,8 @@ header {
 .main-h1 {
     color: #f80404;
     text-align: center;
-    font-size: 88px; 
-    margin: auto;     
+    font-size: 88px;
+    margin: auto;
 }
 
 .main-para1 {
@@ -75,6 +75,7 @@ header {
     /* position: relative; */
     /* margin: 100px; */
 }
+
 .container {
     width: 1320px;
     height: 600px;
@@ -103,43 +104,36 @@ header {
     font-size: 24px;
     text-align: left;
 }
-.button{
+
+.button {
     padding: none;
 }
 
-.main2-img{ 
-    
+.main2-img {}
 
-    }
-.footer-1{
+.footer-1 {
     color: #f80404;
     font-size: 24px;
     margin-top: 10px;
     margin-left: 50px;
 }
-.l-part{
+
+.l-part {
     color: black;
     font-size: 48px;
     margin-left: 50px;
 }
 
-.a:hover{
+.a:hover {
     display: flex;
     width: 430px;
     height: 450px;
     margin-left: 50px;
     padding: 30px;
     opacity: 0.5;
-    }
-
-.line-1{
-    display: flex;
-    width: 424px;
-    height: 450px;
-    margin-left: 50px;
-    padding: 30px;
 }
-.line-2{
+
+.line-1 {
     display: flex;
     width: 424px;
     height: 450px;
@@ -147,7 +141,15 @@ header {
     padding: 30px;
 }
 
-.box-1{
+.line-2 {
+    display: flex;
+    width: 424px;
+    height: 450px;
+    margin-left: 50px;
+    padding: 30px;
+}
+
+.box-1 {
     width: 1320px;
     height: 616px;
     /* width: 1000px;
@@ -156,77 +158,132 @@ header {
     background-image: url("../resources/Rectangle\ 11.png");
     margin: auto;
     display: block;
-    
+
 }
-.email{
+
+.email {
     position: relative;
     margin: 80px 0px 0px 580px;
     /* margin-left: 400px; */
 }
 
-.box-h1{
+.box-h1 {
     /* position: absolute; */
     position: relative;
     font-size: 48px;
     margin-left: 420px;
 }
-.box-p{
+
+.box-p {
     text-align: center;
     font-size: 20px;
 }
-.box-subimage{
+
+.box-subimage {
     /* position: relative; */
     margin-top: 48px;
     margin-left: 336px;
     padding: 50px solid;
     /* margin: auto; */
 }
-.text-on-image{
+
+.text-on-image {
     position: relative;
 }
+
 /* .box-subimage-img{
     position: relative;
 } */
-.box-subimage-p{
+.box-subimage-p {
     color: gray;
-    position:absolute; 
+    position: absolute;
     left: 8%;
-    top:12% ;
+    top: 12%;
     /* margin:auto */
 }
-.box-subimage-img-2{
+
+.box-subimage-img-2 {
     position: absolute;
     left: 50%;
-    top:1% ;
+    top: 1%;
 }
-.box-subimage-p-2{
+
+.box-subimage-p-2 {
     color: rgb(250, 250, 252);
     font-size: 20px;
-    position:absolute; 
+    position: absolute;
     left: 53%;
-    top:8% ;
+    top: 8%;
 }
-.footer-p-1{
-    color:rgb(250, 5, 5);
+
+.footer-p-1 {
+    color: rgb(250, 5, 5);
     font-size: 24px;
     position: relative;
     text-align: left;
-    
+    left: 10%;
+    top: 90%;
 }
-footer-p-2{
+
+.footer-p-2 {
     position: relative;
-    color:rgb(250, 5, 5);
+    color: rgb(250, 5, 5);
     font-size: 24px;
-    text-align:right ;
+    text-align: right;
+    left: 50%;
+    top: 90%;
     
 }
-.footer{
-    background-image: url("../resources/Rectangle\ 10.png");
-    width: 1600px;
-    height: 609;
 
+.footer-up{
+    background-image: url("../resources/Rectangle\ 10.png");
+    width: 1400px;
+    height: 500px;
+    /* background-color: rgb(14, 13, 13); */
 }
 
-.footer-finising{
+/* .Call {
+
+    background-repeat: no-repeat;
+    margin-right: 460px;
+    background-size:1%;
+} */
+
+/* .website {
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    background-size:5%; */
+   
+    /* left: 80%;
+    top: 10%;
+} */
+
+.footer-finising {
     display: flex;
+}
+.icon{
+    margin-left: 38%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    /* display: flex; */
+}
+.HR-1{
+    color: #ffffff.15%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.last-footer-p{
+    color: #ffffff;
+ margin-left: 10%;
+ bottom: 15%;
+}
+.last-footer-button{
+   left: 85%;
+   position: absolute;
+   
+
+}
+.last-footer-button:hover{
+
+    font-size: medium;
 }
