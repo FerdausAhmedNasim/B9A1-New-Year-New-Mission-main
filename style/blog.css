@@ -153,19 +153,20 @@ header {
     /* width: 1000px;
     height: 500px; */
     /* color: rgb(243, 16, 16); */
-    background-image: url("https://images.unsplash.com/photo-1533628635777-112b2239b1c7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("../resources/Rectangle\ 11.png");
     margin: auto;
-    /* display: block; */
+    display: block;
     
 }
 .email{
-    /* position: relative; */
+    position: relative;
     margin: 80px 0px 0px 580px;
     /* margin-left: 400px; */
 }
 
 .box-h1{
     /* position: absolute; */
+    position: relative;
     font-size: 48px;
     margin-left: 420px;
 }
