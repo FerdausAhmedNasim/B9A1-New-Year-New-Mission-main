@@ -27,14 +27,16 @@ header {
     line-height: 95px;
     margin-left: 10%;
 }
-.All-body{
 
+.All-body{
+/* position:absolute; */
 }
 
 .main {
     align-items: center;
     display: block;
     text-align: center;
+    margin-left: 50px;
 }
 
 .container {
@@ -50,7 +52,7 @@ header {
 .main-h1 {
     color: #f80404;
     text-align: center;
-    font-size: 88px;
+    font-size: 88px;      
 }
 
 .main-para1 {
@@ -68,8 +70,11 @@ header {
 .main-img {
     width: 802px;
     height: 500px;
+    /* position: fixed; */
+    text-align: center;
     /* margin: 48px 20%; */
     position: relative;
+    /* margin: 100px; */
 }
 
 .main2 {}
@@ -99,3 +104,33 @@ header {
     
 
     }
+.footer-1{
+    color: #f80404;
+    font-size: 24px;
+    margin-top: 600px;
+    margin-left: 50px;
+}
+.l-part{
+    color: black;
+    font-size: 48px;
+    margin-left: 50px;
+}
+
+.a:hover{
+    opacity: 0.5;
+    }
+
+.line-1{
+    display: flex;
+    width: 424px;
+    height: 450px;
+    margin-left: 50px;
+    padding: 30px;
+}
+.line-2{
+    display: flex;
+    width: 424px;
+    height: 450px;
+    margin-left: 50px;
+    padding: 30px;
+}
