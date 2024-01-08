@@ -36,9 +36,45 @@ header {
     align-items: center;
     display: block;
     text-align: center;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin: auto;
+    /* position: absolute; */
+    
 }
 
+
+
+.main-h1 {
+    color: #f80404;
+    text-align: center;
+    font-size: 88px; 
+    margin: auto;     
+}
+
+.main-para1 {
+    color: #f80404;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+
+.main-h2 {
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    margin: auto;
+}
+
+.main-img {
+    width: 802px;
+    height: 500px;
+    margin: auto;
+    /* position: fixed; */
+    /* text-align: center; */
+    /* margin: 48px 20%; */
+    /* position: relative; */
+    /* margin: 100px; */
+}
 .container {
     width: 1320px;
     height: 600px;
@@ -46,35 +82,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-}
-
-.main-h1 {
-    color: #f80404;
-    text-align: center;
-    font-size: 88px;      
-}
-
-.main-para1 {
-    color: #f80404;
-    font-size: 24px;
-    text-align: center;
-}
-
-.main-h2 {
-    color: black;
-    text-align: center;
-    font-size: 48px;
-}
-
-.main-img {
-    width: 802px;
-    height: 500px;
-    /* position: fixed; */
-    text-align: center;
-    /* margin: 48px 20%; */
-    position: relative;
-    /* margin: 100px; */
 }
 
 .main2 {}
@@ -107,7 +114,7 @@ header {
 .footer-1{
     color: #f80404;
     font-size: 24px;
-    margin-top: 600px;
+    margin-top: 10px;
     margin-left: 50px;
 }
 .l-part{
@@ -117,6 +124,11 @@ header {
 }
 
 .a:hover{
+    display: flex;
+    width: 430px;
+    height: 450px;
+    margin-left: 50px;
+    padding: 30px;
     opacity: 0.5;
     }
 
@@ -133,4 +145,55 @@ header {
     height: 450px;
     margin-left: 50px;
     padding: 30px;
+}
+
+.box-1{
+    width: 1320px;
+    height: 616px;
+    /* width: 1000px;
+    height: 500px; */
+    /* color: rgb(243, 16, 16); */
+    background-image: url("https://images.unsplash.com/photo-1533628635777-112b2239b1c7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    margin: auto;
+    /* display: block; */
+    
+}
+.email{
+    /* position: relative; */
+    margin: 80px 0px 0px 580px;
+    /* margin-left: 400px; */
+}
+
+.box-h1{
+    /* position: absolute; */
+    font-size: 48px;
+    margin-left: 420px;
+}
+.box-p{
+    text-align: center;
+    font-size: 20px;
+}
+.box-subimage{
+    /* position: relative; */
+    margin-top: 48px;
+    margin-left: 336px;
+    /* margin: auto; */
+}
+.text-on-image{
+    position: relative;
+}
+/* .box-subimage-img{
+    position: relative;
+} */
+.box-subimage-p{
+    color: gray;
+    position:absolute; 
+    left: 8%;
+    top:15% ;
+    /* margin:auto */
+}
+.box-subimage-img-2{
+    position: absolute;
+    left: 50%;
+    top:1% ;
 }
