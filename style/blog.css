@@ -206,7 +206,27 @@ header {
     left: 53%;
     top:8% ;
 }
-.footer-p-1{}
+.footer-p-1{
+    color:rgb(250, 5, 5);
+    font-size: 24px;
+    position: relative;
+    text-align: left;
+    
+}
+footer-p-2{
+    position: relative;
+    color:rgb(250, 5, 5);
+    font-size: 24px;
+    text-align:right ;
+    
+}
 .footer{
+    background-image: url("../resources/Rectangle\ 10.png");
+    width: 1600px;
+    height: 609;
 
+}
+
+.footer-finising{
+    display: flex;
 }
