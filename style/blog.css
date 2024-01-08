@@ -1,7 +1,7 @@
 header {
     width: 1320px;
     height: 600px;
-    background-image: url("/resources/Banner\ Image.png");
+    background-image: url("../resources/Banner\ Image.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ header {
 .container {
     width: 1320px;
     height: 600px;
-    background-image: url("/resources/Vectorrr.png");
+    background-image: url("../resources/Vectorrr.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,6 +177,7 @@ header {
     /* position: relative; */
     margin-top: 48px;
     margin-left: 336px;
+    padding: 50px solid;
     /* margin: auto; */
 }
 .text-on-image{
@@ -189,11 +190,22 @@ header {
     color: gray;
     position:absolute; 
     left: 8%;
-    top:15% ;
+    top:12% ;
     /* margin:auto */
 }
 .box-subimage-img-2{
     position: absolute;
     left: 50%;
     top:1% ;
+}
+.box-subimage-p-2{
+    color: rgb(250, 250, 252);
+    font-size: 20px;
+    position:absolute; 
+    left: 53%;
+    top:8% ;
+}
+.footer-p-1{}
+.footer{
+
 }
