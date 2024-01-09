@@ -272,8 +272,7 @@ header {
     width: 90px;
     margin: 400px 1100px;
     position: absolute;
-    border: none;
-    padding: none;
+    
 }
 
 .last-footer-button:hover {
