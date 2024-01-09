@@ -242,7 +242,7 @@ header {
 } */
 
 .HR-1 {
-    color: #ffffff.15%;
+    color: #5f5353;
     margin: 170px 70px ;
     position: absolute;
 }
@@ -262,7 +262,7 @@ header {
 }
 
 .last-footer-p {
-    color: #5f5353;
+    color: #faf7f7;
     position: absolute;
     margin: 400px 100px;
 }
@@ -270,9 +270,10 @@ header {
 .last-footer-button {
     height: 30px;
     width: 90px;
-    margin: 400px 1080px;
+    margin: 400px 1100px;
     position: absolute;
     border: none;
+    padding: none;
 }
 
 .last-footer-button:hover {
