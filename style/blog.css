@@ -28,52 +28,37 @@ header {
     margin-left: 10%;
 }
 
-.All-body {
-    /* position:absolute; */
-}
 
 .main {
-    align-items: center;
-    display: block;
-    text-align: center;
-    /* margin-left: 50px; */
-    margin: auto;
-    /* position: absolute; */
-
 }
 
 
 
 .main-h1 {
     color: #f80404;
-    text-align: center;
     font-size: 88px;
-    margin: auto;
+    margin: 2px 500px;
+    height: 100px;
+    width: 400px;
 }
 
 .main-para1 {
     color: #f80404;
     font-size: 24px;
-    text-align: center;
-    margin: auto;
+    margin: 10px 500px ;
 }
 
 .main-h2 {
     color: black;
-    text-align: center;
     font-size: 48px;
-    margin: auto;
+    margin: 2px 500px;
 }
 
 .main-img {
     width: 802px;
     height: 500px;
-    margin: auto;
-    /* position: fixed; */
-    /* text-align: center; */
-    /* margin: 48px 20%; */
-    /* position: relative; */
-    /* margin: 100px; */
+    margin: 2px 290px;
+    
 }
 
 .container {
@@ -154,13 +139,9 @@ header {
 .box-1 {
     width: 1320px;
     height: 616px;
-    /* width: 1000px;
-    height: 500px; */
     color: rgb(243, 16, 16);
     background-image: url("../resources/Rectangle\ 11.png");
-    margin: auto;
-    display: block;
-
+    margin: 5px 5px;
 }
 
 .email {
@@ -234,14 +215,15 @@ header {
     text-align: right;
     left: 50%;
     top: 90%;
-    
+
 }
 
-.footer-up{
+.footer-up {
     background-image: url("../resources/Rectangle\ 10.png");
-    width: 1400px;
+    width: 1320px;
     height: 500px;
     /* background-color: rgb(14, 13, 13); */
+    position: relative;
 }
 
 /* .Call {
@@ -255,52 +237,69 @@ header {
     background-repeat: no-repeat;
     margin-right: 0px;
     background-size:5%; */
-   
-    /* left: 80%;
+
+/* left: 80%;
     top: 10%;
 } */
 
 .footer-finising {
     display: flex;
+    position: relative;
 }
-.icon{
+
+.icon {
     margin-left: 38%;
     margin-top: 4%;
     margin-bottom: 4%;
     /* display: flex; */
 }
-.HR-1{
+
+.HR-1 {
     color: #ffffff.15%;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.last-footer-p{
+
+.last-footer-p {
     color: #ffffff;
- margin-left: 10%;
- bottom: 15%;
+    height: 0px;
+    width: 500px;
+    position: absolute;
+    margin: 0px 140px;
 }
-.last-footer-button{
-   left: 85%;
-   position: absolute;
-   
+
+.last {
+    display: flex;
+}
+
+.last-footer-button {
+    height: 30px;
+    width: 90px;
+    margin: 0px 1100px;
+    position: absolute;
+    border: none;
+
 
 }
-.last-footer-button:hover{
+
+.last-footer-button:hover {
 
     font-size: medium;
 }
 
-.bonus  {
+.bonus {
     width: 1320px;
     height: 600px;
     background-color: #dad3d3;
 }
-.group-17{
+
+.group-17 {
     margin-top: 120px;
     margin-left: 20px;
     position: absolute;
 }
-.Group-20{
+
+.Group-20 {
     background-image: url("../resources/Ellipse\ 1.png");
     width: 364px;
     height: 364px;
@@ -310,13 +309,14 @@ header {
     margin: 150px 450px;
 }
 
-.Group-18{
+.Group-18 {
     position: absolute;
     margin: 200px 1000px;
     width: 180px;
     height: 20px;
 }
-.Group-94{
+
+.Group-94 {
     background-image: url('../resources/happy.png');
     width: 400px;
     height: 400px;
