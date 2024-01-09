@@ -252,7 +252,7 @@ header {
     display: flex; 
 }
 .HR-2 {
-    color: #ffffff.15%;
+    color: #5f5353;
     margin: 330px 70px ;
     position: absolute;
 }
@@ -262,7 +262,7 @@ header {
 }
 
 .last-footer-p {
-    color: #ffffff;
+    color: #5f5353;
     position: absolute;
     margin: 400px 100px;
 }
@@ -286,7 +286,7 @@ header {
 }
 
 .group-17 {
-    margin-top: 120px;
+    margin-top: 200px;
     margin-left: 20px;
     position: absolute;
 }
