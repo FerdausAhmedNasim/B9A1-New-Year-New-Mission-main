@@ -293,5 +293,21 @@ header {
 .bonus  {
     width: 1320px;
     height: 600px;
-    background-color: #f10a0a;
+    background-color: #dad3d3;
 }
+.group-17{
+    margin-top: 120px;
+    margin-left: 20px;
+    position: absolute;
+}
+.Group-20{
+    background-image: url("../resources/Ellipse\ 1.png");
+    width: 364px;
+    height: 364px;
+    border: 4px solid red;
+    border-radius: 50%;
+    position: absolute;
+    margin: 150px 450px;
+}
+
+.Group-18{}
